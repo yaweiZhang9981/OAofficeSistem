@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap 101 Template</title>
+    <link href="css/bootstrap.css" rel="stylesheet">
+    <style>
+    	li{list-style:none;}
+    	.mb0{margin-bottom:0;background-color:skyblue;}
+    	footer p{height:90px;line-height:90px;font-size:20px;text-align:center;}
+    </style>
+  </head>
+  <body>
+    <nav class="navbar navbar-default" role="navigation">
+	  <div class="container">
+	    <!-- Brand and toggle get grouped for better mobile display -->
+	    <div class="navbar-header">
+	      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+	        <span class="sr-only">Toggle navigation</span>
+	        <span class="icon-bar"></span>
+	        <span class="icon-bar"></span>
+	        <span class="icon-bar"></span>
+	      </button>
+	      <a class="navbar-brand" href="#">OA办公系统</a>
+	    </div>
+	    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+	      <ul class="nav navbar-nav">
+	        <li><a href="oawangye.html"><span class="glyphicon glyphicon-search"></span>管理首页</a></li>
+	        <li class="active"><a href="#"><span class="glyphicon glyphicon-search"></span>用户管理</a></li>
+	        <li><a href="#"><span class="glyphicon glyphicon-search"></span>内容管理</a></li>
+	        <li><a href="#"><span class="glyphicon glyphicon-search"></span>标签管理</a></li>
+	      </ul>
+	      <ul class="nav navbar-nav navbar-right">
+	        <li class="dropdown">
+	          <a href="#" class="dropdown-toggle" data-toggle="dropdown">admin<span class="caret"></span></a>
+	          <ul class="dropdown-menu" role="menu">
+	            <li><a href="#"><span class="glyphicon glyphicon-screenshot"></span>　前台首页</a></li>
+	            <li><a href="#"><span class="glyphicon glyphicon-user"></span>　个人主页</a></li>
+	            <li><a href="#"><span class="glyphicon glyphicon-cog"></span>　个人设置</a></li>
+	            <li><a href="#"><span class="glyphicon glyphicon-credit-card"></span>　账户中心</a></li>
+	            <li><a href="#"><span class="glyphicon glyphicon-heart"></span>　我的收藏</a></li>
+	            <li><a href="#"><span class="glyphicon glyphicon-off"></span>　退出</a></li>
+	          </ul>
+	        </li>
+	        <li class="dropdown">
+	          <a href="#" class="dropdown-toggle" data-toggle="dropdown">管理员<span class="caret"></span></a>
+	          <ul class="dropdown-menu" role="menu">
+	            <li><a href="#"><span class="glyphicon glyphicon-screenshot"></span>　前台首页</a></li>
+	            <li><a href="#"><span class="glyphicon glyphicon-user"></span>　个人主页</a></li>
+	            <li><a href="#"><span class="glyphicon glyphicon-cog"></span>　个人设置</a></li>
+	            <li><a href="#"><span class="glyphicon glyphicon-credit-card"></span>　账户中心</a></li>
+	            <li><a href="#"><span class="glyphicon glyphicon-heart"></span>　我的收藏</a></li>
+	            <li><a href="#"><span class="glyphicon glyphicon-off"></span>　退出</a></li>
+	          </ul>
+	        </li>
+	      </ul>
+	    </div><!-- /.navbar-collapse -->
+	  </div><!-- /.container-fluid -->
+	</nav>
+		<div class="container">
+			<div class="row">
+				<div class="col-md-2">
+						<div class="list-group">
+							<a href="userList.html" class="list-group-item">用户管理</a>
+							<a href="#" class="list-group-item active">用户搜索</a>
+							<a href="#" class="list-group-item">用户添加</a>
+						</div>
+				</div>
+				<div class="col-md-10">
+						<ul class="nav nav-tabs">
+						   <li><a href="userList.html">用户管理</a></li>
+						   <li class="active"><a href="#">用户搜索</a></li>
+						   <li><a href="#">用户添加</a></li>
+						</ul>
+						<div class="panel panel-default">
+							<div class="panel-body">
+								<div class="well mb0 text-info">
+									<h3 class="panel-title">技巧提示：支持模糊搜索和匹配搜索</h3>
+								</div>
+						  </div>
+						   <div class="panel-body">
+						      <form role="form">
+									  <div class="form-group">
+									    <label for="name">用户名</label>
+									    <input type="text" class="form-control" placeholder="请输入用户名">
+									  </div>
+									  <div class="form-group">
+									    <label for="name">UID</label>
+									    <input type="text" class="form-control" placeholder="请输入用户UID">
+									  </div>
+									  <div class="form-group">
+									    <label for="name">选择用户组</label>
+									    <select id="disabledSelect" class="form-control">
+					               <option>限制会员</option>
+					               <option>不限会员</option>
+					               <option>高级会员</option>
+					            </select>
+									  </div>
+									  <div class="form-group">
+									    <button type="submit" class="btn btn-default">提交</button>
+									  </div>
+									</form>
+						   </div>
+						</div>
+				</div>
+			</div>
+		</div>
+		<footer>
+			<p>联系方式：1351761558</p>
+		</footer>    
+    <script src="js/jquery-1.11.3.min.js"></script>
+    <script src="js/bootstrap.js"></script>
+    <script>
+    	
+    </script>
+  </body>
+							
+</html>

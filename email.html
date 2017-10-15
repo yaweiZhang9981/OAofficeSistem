@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap 101 Template</title>
+    <link href="css/bootstrap.css" rel="stylesheet">
+    <style>
+    	li{list-style:none;}
+    	.main .close{float:right;display:inline-block;padding:5px 10px;}
+    	.main .userimg{width:100%;border-radius:7px;}
+    	.main .personmsg{margin:0;padding:0;}
+    	.main .personmsg li{margin-bottom:10px;}
+    	.main .my{background-color:#f5f5f5;padding:12px 15px;}
+    	.main .media-object{width:64px;height:64px;}
+    	.main .mrt20{margin-top:20px;}
+    	footer p{height:90px;line-height:90px;font-size:20px;text-align:center;}
+    </style>
+  </head>
+  <body>
+    <nav class="navbar navbar-default" role="navigation">
+	  <div class="container">
+	    <!-- Brand and toggle get grouped for better mobile display -->
+	    <div class="navbar-header">
+	      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+	        <span class="sr-only">Toggle navigation</span>
+	        <span class="icon-bar"></span>
+	        <span class="icon-bar"></span>
+	        <span class="icon-bar"></span>
+	      </button>
+	      <a class="navbar-brand" href="#">OA办公系统</a>
+	    </div>
+	    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+	      <ul class="nav navbar-nav">
+	        <li><a href="oawangye.html"><span class="glyphicon glyphicon-home"></span> 管理首页</a></li>
+	        <li><a href="userList.html"><span class="glyphicon glyphicon-user"></span> 用户管理</a></li>
+	        <li><a href="content.html"><span class="glyphicon glyphicon-list-alt"></span> 内容管理</a></li>
+	        <li><a href="tabs.html"><span class="glyphicon glyphicon-tags"></span> 标签管理</a></li>
+	        <li class="active"><a href="#"><span class="glyphicon glyphicon-envelope"></span> 我的邮箱</a></li>
+	      </ul>
+	      <ul class="nav navbar-nav navbar-right">
+	      	<li class="dropdown">
+	          <a href="#" class="dropdown-toggle" data-toggle="dropdown">admin<span class="caret"></span></a>
+	          <ul class="dropdown-menu" role="menu">
+	            <li><a href="#"><span class="glyphicon glyphicon-screenshot"></span>　前台首页</a></li>
+	            <li><a href="#"><span class="glyphicon glyphicon-user"></span>　个人主页</a></li>
+	            <li><a href="#"><span class="glyphicon glyphicon-cog"></span>　个人设置</a></li>
+	            <li><a href="#"><span class="glyphicon glyphicon-credit-card"></span>　账户中心</a></li>
+	            <li><a href="#"><span class="glyphicon glyphicon-heart"></span>　我的收藏</a></li>
+	            <li><a href="#"><span class="glyphicon glyphicon-off"></span>　退出</a></li>
+	          </ul>
+	        </li>
+	        <li class="dropdown">
+	          <a href="#" class="dropdown-toggle" data-toggle="dropdown">管理员<span class="caret"></span></a>
+	          <ul class="dropdown-menu" role="menu">
+	            <li><a href="#"><span class="glyphicon glyphicon-screenshot"></span>　前台首页</a></li>
+	            <li><a href="#"><span class="glyphicon glyphicon-user"></span>　个人主页</a></li>
+	            <li><a href="#"><span class="glyphicon glyphicon-cog"></span>　个人设置</a></li>
+	            <li><a href="#"><span class="glyphicon glyphicon-credit-card"></span>　账户中心</a></li>
+	            <li><a href="#"><span class="glyphicon glyphicon-heart"></span>　我的收藏</a></li>
+	            <li><a href="#"><span class="glyphicon glyphicon-off"></span>　退出</a></li>
+	          </ul>
+	        </li>
+	      </ul>
+	    </div><!-- /.navbar-collapse -->
+	  </div><!-- /.container-fluid -->
+	</nav>
+		<div class="container">
+			<div class="row">
+				<div class="col-md-3">
+						<div class="panel-group" id="accordion">
+					  <div class="panel panel-default">
+					    <div class="panel-heading">
+					      <h4 class="panel-title">
+					        <a data-toggle="collapse" data-parent="#accordion" 
+					          href="#collapseOne">
+					         最近联系人
+					        </a>
+					      </h4>
+					    </div>
+					    <div id="collapseOne" class="panel-collapse collapse in">
+					      <div class="panel-body">
+					        <ul class="list-group text-info">
+									  <li class="list-group-item"><span class="glyphicon glyphicon-star-empty"></span> 貂蝉</li>
+									  <li class="list-group-item"><span class="glyphicon glyphicon-star-empty"></span> 王昭君</li>
+									  <li class="list-group-item"><span class="glyphicon glyphicon-star-empty"></span> 阿珂</li>
+									  <li class="list-group-item"><span class="glyphicon glyphicon-star-empty"></span> 兰陵王</li>
+									  <li class="list-group-item"><span class="glyphicon glyphicon-star-empty"></span> 孙悟空</li>
+									  <li class="list-group-item"><span class="glyphicon glyphicon-star-empty"></span> 凯</li>
+									  <li class="list-group-item"><span class="glyphicon glyphicon-star-empty"></span> 百里守约</li>
+									  <li class="list-group-item"><span class="glyphicon glyphicon-star-empty"></span> 芈月</li>
+									</ul>
+					      </div>
+					    </div>
+					  </div>
+					  <div class="panel panel-default">
+					    <div class="panel-heading">
+					      <h4 class="panel-title">
+					        <a data-toggle="collapse" data-parent="#accordion" 
+					          href="#collapseTwo">
+					          我的同事
+					        </a>
+					      </h4>
+					    </div>
+					    <div id="collapseTwo" class="panel-collapse collapse">
+					      <div class="panel-body">
+					        <ul class="list-group text-info">
+									  <li class="list-group-item"><span class="glyphicon glyphicon-star-empty"></span> 貂蝉</li>
+									  <li class="list-group-item"><span class="glyphicon glyphicon-star-empty"></span> 王昭君</li>
+									  <li class="list-group-item"><span class="glyphicon glyphicon-star-empty"></span> 阿珂</li>
+									  <li class="list-group-item"><span class="glyphicon glyphicon-star-empty"></span> 兰陵王</li>
+									  <li class="list-group-item"><span class="glyphicon glyphicon-star-empty"></span> 孙悟空</li>
+									  <li class="list-group-item"><span class="glyphicon glyphicon-star-empty"></span> 凯</li>
+									  <li class="list-group-item"><span class="glyphicon glyphicon-star-empty"></span> 百里守约</li>
+									  <li class="list-group-item"><span class="glyphicon glyphicon-star-empty"></span> 芈月</li>
+									</ul>
+					      </div>
+					    </div>
+					  </div>
+					  <div class="panel panel-default">
+					    <div class="panel-heading">
+					      <h4 class="panel-title">
+					        <a data-toggle="collapse" data-parent="#accordion" 
+					          href="#collapseThree">
+					          我的客户
+					        </a>
+					      </h4>
+					    </div>
+					    <div id="collapseThree" class="panel-collapse collapse">
+					      <div class="panel-body">
+					        <ul class="list-group text-info">
+									  <li class="list-group-item"><span class="glyphicon glyphicon-star-empty"></span> 貂蝉</li>
+									  <li class="list-group-item"><span class="glyphicon glyphicon-star-empty"></span> 王昭君</li>
+									  <li class="list-group-item"><span class="glyphicon glyphicon-star-empty"></span> 阿珂</li>
+									  <li class="list-group-item"><span class="glyphicon glyphicon-star-empty"></span> 兰陵王</li>
+									  <li class="list-group-item"><span class="glyphicon glyphicon-star-empty"></span> 孙悟空</li>
+									  <li class="list-group-item"><span class="glyphicon glyphicon-star-empty"></span> 凯</li>
+									  <li class="list-group-item"><span class="glyphicon glyphicon-star-empty"></span> 百里守约</li>
+									  <li class="list-group-item"><span class="glyphicon glyphicon-star-empty"></span> 芈月</li>
+									</ul>
+					      </div>
+					    </div>
+					  </div>
+					</div>
+				</div>
+				<div class="col-md-9">
+						<div class="panel panel-default">
+						   <div class="panel-heading">
+						      <h3 class="panel-title">
+						         带有 title 的面板标题
+						      </h3>
+						   </div>
+					      <ul class="list-group text-info">
+								   <li class="list-group-item"><span class="glyphicon glyphicon-list-alt"></span> 免费域名注册</li>
+								   <li class="list-group-item"><span class="glyphicon glyphicon-list-alt"></span> 免费 Window 空间托管</li>
+								   <li class="list-group-item"><span class="glyphicon glyphicon-list-alt"></span> 图像的数量</li>
+								   <li class="list-group-item"><span class="glyphicon glyphicon-list-alt"></span> 24*7 支持</li>
+								   <li class="list-group-item"><span class="glyphicon glyphicon-list-alt"></span> 每年更新成本</li>
+								</ul>
+						</div>
+					<ul class="pagination pull-right">
+					  <li><a href="#">&laquo;</a></li>
+					  <li class="active"><a href="#">1</a></li>
+					  <li class="disabled"><a href="#">2</a></li>
+					  <li><a href="#">3</a></li>
+					  <li><a href="#">4</a></li>
+					  <li><a href="#">5</a></li>
+					  <li><a href="#">&raquo;</a></li>
+					</ul>
+				</div>
+			</div>
+		</div>
+		<footer>
+			<p>联系方式：1351761558</p>
+		</footer>
+		
+    <script src="js/jquery-1.11.3.min.js"></script>
+    <script src="js/bootstrap.js"></script>
+    <script>
+    	
+    </script>
+  </body>
+							
+</html>
